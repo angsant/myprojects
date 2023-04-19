@@ -1,0 +1,29 @@
+.posicao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fundo {
+  background-color: gray;
+
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  background-color: brown;
+  height: 800px;
+  width: 800px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* margin: 50px 50px 50px 50px; */
+}
+
+.quadrado {
+  /* height: 100px;
+  width: 100px; */
+  border: black solid 1px;
+  background-color: white;
+}
